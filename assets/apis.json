@@ -2149,3 +2149,1451 @@
     }
 ]
 }
+
+   {
+        "id": "3",
+        "name": "Admissionbd",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/admissionbd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "4",
+        "name": "Call",
+        "url": "https:\/\/api.teamxdraco.my.id\/api19.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "5",
+        "name": "AppLink",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/applink.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "6",
+        "name": "Arogga",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/arogga.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "7",
+        "name": "Bikroy",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/bikroy.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "8",
+        "name": "MuBl",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/bl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "9",
+        "name": "ChainaOnline",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/chainaonline.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "10",
+        "name": "Chokrojan",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/chakrajan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "11",
+        "name": "Chorki",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/chorki.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "12",
+        "name": "Circle",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/circel.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "13",
+        "name": "DhakaBank",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/dhakabank.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "14",
+        "name": "Deepto",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/dipto.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "15",
+        "name": "Doctime",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/doctime.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "16",
+        "name": "Easy.com",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/easy.com.bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "17",
+        "name": "Ecourier",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/ecuriar.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "18",
+        "name": "Flexiplan",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/flexi-plan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "19",
+        "name": "Fliper",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/fliper.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "20",
+        "name": "Fundedh",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/fundesh.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "21",
+        "name": "Ghuri",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/ghuri.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "22",
+        "name": "Gpoffer",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/gp.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "23",
+        "name": "Gpshop",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/gpshop.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "24",
+        "name": "HishabExp",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/hisab-express.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "25",
+        "name": "HishabLogin",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/hisabelogin.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "26",
+        "name": "Ivr",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/ivr.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "27",
+        "name": "Jeetwinbd",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/jeetwinbd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "28",
+        "name": "Jotno",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/jotno.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "29",
+        "name": "Mcb",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/mcbaffiliate.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "30",
+        "name": "Mokam",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/mokam.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "31",
+        "name": "Moveon",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/moveon.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "32",
+        "name": "Obhai",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/obhai.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "33",
+        "name": "Robinyoffer",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/robi-myoffer.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "34",
+        "name": "Robiweb",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/robi-web.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "35",
+        "name": "Robiweb2",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/robi-web2.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "36",
+        "name": "Rtvreg",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/rtv-reg.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "37",
+        "name": "Rtvlogin",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/rtv-forget.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "38",
+        "name": "Shadhin",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/sadhin.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "39",
+        "name": "Sajgoj",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/sajgoj.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "40",
+        "name": "Shopotreg",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/sopoth-reg.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "41",
+        "name": "Shopotlog",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/sopoth-resend.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "42",
+        "name": "Tallykhata",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/talikhata.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "43",
+        "name": "Bkash",
+        "url": "https:\/\/www.sineorbiz.com\/wp-content\/plugins\/bkash.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "44",
+        "name": "Call",
+        "url": "https:\/\/api.versionx10.co\/Call\/X.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "45",
+        "name": "Alibd2",
+        "url": "https:\/\/api.arifmodz.my.id\/V2V2V2\/ali2bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "46",
+        "name": "Gp",
+        "url": "https:\/\/weblogin.grameenphone.com\/backend\/api\/v1\/otp",
+        "method": "post",
+        "body": "{\"msisdn\":\"*****\"}",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "47",
+        "name": "admissionbd",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/admissionbd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "48",
+        "name": "Aibl",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/aibl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "49",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/ali2bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "50",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/applink.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "51",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/arogga.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "52",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bdtikets.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "53",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bdtikets2.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "54",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/betonbook.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "55",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bikroy.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "56",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bioscope.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "57",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bkash-biz.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "58",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "59",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/bongobd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "60",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/busbdlogin.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "61",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/byjus.php?phone=*****",
+        "method": "-- Select Method --",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "62",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/chainaonline.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "63",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/chakrajan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "64",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/chorki.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "65",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/cinematic.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "66",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/cineplex.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "67",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/cinespot.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "68",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/circel.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "69",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/dhakabank.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "70",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/dipto.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "71",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/dmss.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "72",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/doctime.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "73",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/easy.com.bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "74",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/ecuriar.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "75",
+        "name": "Admin",
+        "url": "https:\/\/rsbdxfire.my.id\/Api\/enobazar.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+
+    {
+        "id": "1",
+        "name": "8m-forget.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/8m-forget.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "2",
+        "name": "b8m-reg.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/b8m-reg.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "3",
+        "name": "admissionbd.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/admissionbd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "4",
+        "name": "aibl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/aibl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "5",
+        "name": "ail2bd.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/ali2bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "6",
+        "name": "apex.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/apex.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "7",
+        "name": "applink.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/applink.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "8",
+        "name": "arogga.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/arogga.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "9",
+        "name": "bdtikets.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bdtikets.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "10",
+        "name": "bdtikets2.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bdtikets2.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "11",
+        "name": "betonbook.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/betonbook.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "12",
+        "name": "bikroy.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bikroy.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "13",
+        "name": "bioscope.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bioscope.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "14",
+        "name": "bjbaji.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bjbaji.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "15",
+        "name": "bkash.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bkash.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "16",
+        "name": "bl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "17",
+        "name": "bongobd.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/bongobd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "18",
+        "name": "busbdlogin.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/busbdlogin.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "19",
+        "name": "chainaonline.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/chainaonline.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "20",
+        "name": "chakrajan.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/chakrajan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "21",
+        "name": "chorki.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/chorki.php?phone=*****",
+        "method": "post",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "22",
+        "name": "cinematic.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/cinematic.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "23",
+        "name": "cineplex.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/cineplex.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "24",
+        "name": "cinespot.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/cinespot.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "25",
+        "name": "circel.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/circel.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "26",
+        "name": "daktarbhai.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/daktarbhai.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "27",
+        "name": "dhakabank.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/dhakabank.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "28",
+        "name": "dipto.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/dipto.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "29",
+        "name": "dmss.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/dmss.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "30",
+        "name": "doctime.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/doctime.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "31",
+        "name": "easy.com.bd",
+        "url": "https:\/\/teamdcstools.mycs.site\/easy.com.bd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "32",
+        "name": "ecuriar.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/ecuriar.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "33",
+        "name": "engage-token.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/engage-token.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "34",
+        "name": "engage.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/engage.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "35",
+        "name": "enobazar.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/enobazar.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "36",
+        "name": "entertainment.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/entertainment.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "37",
+        "name": "eshop-bl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/eshop-bl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "38",
+        "name": "flexi-plan.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/flexi-plan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "39",
+        "name": "fliper.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/fliper.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "40",
+        "name": "food-collection.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/food-collection.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "41",
+        "name": "fsibl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/fsibl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "42",
+        "name": "fundesh.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/fundesh.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "43",
+        "name": "ghuri.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/ghuri.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "44",
+        "name": "gibinfo.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/gibinfo.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "45",
+        "name": "gp.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/gp.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "46",
+        "name": "gpay.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/gpay.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "47",
+        "name": "gpfi.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/gpfi.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "48",
+        "name": "gpshop.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/gpshop.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "49",
+        "name": "grameendh.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/grameendh.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "50",
+        "name": "helth-login.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/helth-login.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "51",
+        "name": "helth-reg.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/helth-reg.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "52",
+        "name": "helth.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/helth.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "53",
+        "name": "hisab-express.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/hisab-express.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "54",
+        "name": "hisabereg.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/hisabereg.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "55",
+        "name": "hlpl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/hlpl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "56",
+        "name": "hoichoi.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/hoichoi.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "57",
+        "name": "iqra.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/iqra.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "58",
+        "name": "ivr.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/ivr.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "59",
+        "name": "jatri.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/jatri.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "60",
+        "name": "jeetwinbd.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/jeetwinbd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "61",
+        "name": "jotno.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/jotno.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "62",
+        "name": "kabbik.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/kabbik.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "63",
+        "name": "kirebd.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/kirebd.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "64",
+        "name": "kormi24.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/kormi24.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "65",
+        "name": "lazzpharma.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/lazzpharma.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "66",
+        "name": "ibfl.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/ibfl.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "67",
+        "name": "loan.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/loan.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "68",
+        "name": "mcbaffiliate.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/mcbaffiliate.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "69",
+        "name": "mithai.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/mithai.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "70",
+        "name": "mojaenglish.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/mojaenglish.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/x-www-form-urlencoded"
+        }
+    },
+    {
+        "id": "71",
+        "name": "mokam.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/mokam.php?phone=*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "content-type": "application\/json"
+        }
+    },
+    {
+        "id": "72",
+        "name": "moveon.php",
+        "url": "https:\/\/teamdcstools.mycs.site\/moveon.php?phone=*****",
+        
+  
